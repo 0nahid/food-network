@@ -90,7 +90,7 @@ section {
   background-image: url("./images/shapes/7.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height:500px;
+  height: 500px;
 }
 
 /* recipes */
@@ -113,7 +113,6 @@ section {
   padding: 0;
   text-align: center;
   margin-top: 20px;
-
 }
 .right-content-box {
   height: 550px;
@@ -121,23 +120,48 @@ section {
   display: inline-block;
   border-radius: 20px;
   margin: 30px;
-  padding:20px; 
-  box-shadow: 3px 3px 5px rgb(201, 201, 201);
+  padding: 20px;
+  box-shadow: 0px 0px 9px #ccc;
 }
 
 .right-content-box img {
   width: 100%;
   height: 350px;
   margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 20px;
 }
-.right-content-item{
-  text-align:left;
+.right-content-item {
+  text-align: left;
 }
-.right-content-item h1{
-  font-size:30px;
+.right-content-item h1 {
+  font-size: 30px;
   margin-bottom: 10px;
 }
-.right-content-item p{
-  font-size:17px;
+.right-content-item p {
+  font-size: 17px;
   font-weight: 400;
+}
+
+/* clients */
+#clients {
+  text-align: center;
+  box-shadow: 0px 0px 9px #ccc;
+  height: 100px;
+  width:1470px;
+  margin:auto;
+  border-radius: 10px;
+
+}
+.client {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+  padding:10px;
+  margin-left: 100px;
+}
+.client h1{
+  font-size:50px;
+  font-weight:bold;
 }
