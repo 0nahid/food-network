@@ -16,9 +16,7 @@ section {
 
 /* nav part */
 .nav-links {
-  margin-top: -40px;
   float: right;
-  position: sticky;
 }
 .nav-links a {
   text-decoration: none;
